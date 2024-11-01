@@ -1,0 +1,281 @@
+/* MObile */
+@media screen and (max-width: 428px) {
+
+  .bc-1, .bc-2, .bc-3, 
+  .bc-4, .fog-1, .fog-2, 
+  .shadows {
+    display: none;
+  }
+  .bc-5, .bc-6 {
+    width: 250%;
+    bottom: -5px;
+  }
+  .ships, .ship-lights {
+    width: 100%;
+    top: 80px;
+  }
+  .main p {
+    font-size: 1rem;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+  }
+  .main h1 {
+    font-size: 5rem;
+    letter-spacing: 2px;
+    line-height: 1;
+    color: #463525;
+  }
+  .hero-text {
+    transform: translateY(225px);
+  }
+
+  .header-logo {
+    margin-left: 20px;
+  }
+  .nav-items {
+    font-size: 1.2rem;
+    margin-right: 20px;
+  }
+  .social-section{
+    gap: 10px;
+    margin-left: 20px;
+  }
+  .hero-btn {
+    bottom: 100px;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    height: 55px;
+    padding: 0 40px;
+  }
+
+  /* Section-2 */
+  #section-2 {
+    height: auto;
+    position: relative;
+  }
+
+  .section-box {
+    height: auto;
+    margin: 50px 0;
+  }
+
+  .content-2-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .grid-2 {
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  /* Section-3 */
+  #section-3 {
+    height: auto;
+    position: relative;
+  }
+  
+  .content-3-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+  }
+  #section-3 .section-title {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .card {
+    height: 600px;
+  }
+  .card-description {
+    font-size: 1.1rem;
+  }
+
+  /* Section-4 */
+  #section-4 {
+    height: auto;
+    position: relative;
+  }
+  .contact-img {
+    display: none;
+  }
+  #section-4 .grid-1 {
+    align-items: center;
+    justify-content: center;
+  }
+  #section-4 .section-sub {
+    margin-top: -100px;
+  }
+
+  /* footer */
+  .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
+  /* Tab */
+  @media screen and (min-width: 429px) and (max-width: 1279px) {
+
+    .bc-1, .bc-2, .bc-3, 
+    .bc-4, .fog-1, .fog-2, 
+    .shadows {
+      display: none;
+    }
+    .bc-5, .bc-6 {
+      width: 250%;
+      bottom: -5px;
+    }
+    .ships, .ship-lights {
+      width: 100%;
+      top: 80px;
+    }
+    .main p {
+      font-size: 1.5rem;
+      letter-spacing: 10px;
+      margin-bottom: 10px;
+    }
+    .main h1 {
+      font-size: 7rem;
+      letter-spacing: 10px;
+      line-height: 1;
+      color: #463525;
+    }
+    .hero-text {
+      transform: translateY(350px);
+    }
+  
+    .header-logo {
+      margin-left: 20px;
+    }
+    .nav-items {
+      font-size: 1.5rem;
+      margin-right: 20px;
+    }
+    .social-section{
+      gap: 10px;
+      margin-left: 20px;
+    }
+    .hero-btn {
+      bottom: 100px;
+      font-size: 1.5rem;
+      letter-spacing: 2px;
+      height: 60px;
+      padding: 0 60px;
+    }
+  
+    /* Section-2 */
+    #section-2 {
+      height: auto;
+      position: relative;
+    }
+  
+    .section-box {
+      height: auto;
+      margin: 50px 0;
+    }
+  
+    .content-2-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+    }
+    .grid-2 {
+      justify-content: center;
+      margin-bottom: 50px;
+    }
+    /* Section-3 */
+    #section-3 {
+      height: auto;
+      position: relative;
+    }
+    
+    .content-3-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 50px
+    }
+    #section-3 .section-title {
+      font-size: 4rem;
+      text-align: center;
+    }
+    .card {
+      height: 500px;
+    }
+    .card-description {
+      font-size: 1.1rem;
+    }
+  
+    /* Section-4 */
+    #section-4 {
+      height: auto;
+      position: relative;
+    }
+    #section-4 .section-title {
+      text-align: center;
+    }
+    .contact-img {
+      display: none;
+    }
+    #section-4 .grid-1 {
+      align-items: center;
+      justify-content: center;
+    }
+    #section-4 .section-sub {
+      margin-top: -100px;
+    }
+  
+    /* footer */
+    .footer {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+    }
+  }
+    /* Laptop */
+    @media screen and (min-width: 1280px) and (max-width: 1919px) {
+      .back-img {
+        width: 100%;
+      }
+      .hero-text {
+        transform: translateY(350px);
+      }
+      .ships, .ship-lights {
+        width: 100%;
+        top: 1cm;
+      }
+      .main p {
+        font-size: 1.5rem;
+        letter-spacing: 10px;
+        margin-bottom: 10px;
+      }
+      .main h1 {
+        font-size: 7rem;
+        letter-spacing: 10px;
+        line-height: 1;
+        color: #463525;
+      }
+      #section-3 {
+        height: auto;
+        position: relative;
+        padding: 50px 0;
+      }
+      #section-3 .section-box {
+        height: auto;
+      }
+      .card {
+        height: 500px;
+      }
+      #section-4 {
+        height: auto;
+        position: relative;
+        padding: 50px 0;
+      }
+      #section-4 .section-box {
+        height: auto;
+      }
+      #section-4 .section-title {
+        text-align: center;
+      }
+    }
+

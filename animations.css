@@ -1,0 +1,146 @@
+@keyframes shipLightsAt {
+  0% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.7;
+  }
+}
+
+@keyframes bottomIn {
+  from {
+    transform: translateY(600px);
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.bc-1 {
+  animation: bottomIn 2.6s ease-in-out forwards;
+}
+.bc-2 {
+  animation: bottomIn 2.4s ease-in-out forwards;
+}
+.bc-3 {
+  animation: bottomIn 2.2s ease-in-out forwards;
+}
+.bc-4 {
+  animation: bottomIn 2.2s ease-in-out forwards;
+}
+.bc-5 {
+  animation: bottomIn 2.1s ease-in-out forwards;
+}
+.bc-6 {
+  animation: bottomIn 2s ease-in-out forwards;
+}
+
+.shadows{
+  animation: bottomIn 2s ease-in-out forwards;
+}
+.fog-1 {
+  animation: bottomIn 2.3s ease-in-out forwards;
+  opacity: 0;
+}
+.fog-2 {
+  animation: bottomIn 2.3s ease-in-out forwards;
+  opacity: 0;
+}
+.hero-btn {
+  animation: bottomIn 2.5s ease-in-out forwards;
+  opacity: 0;
+}
+.hero-foot {
+  animation: bottomIn 2.5s ease-in-out forwards;
+  opacity: 0;
+}
+
+@keyframes bottomInText {
+  from {
+    transform: translateY(1000px);
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.main p {
+  animation: bottomInText 2.6s ease-in-out forwards;
+  opacity: 0;
+}
+.main h1 {
+  animation: bottomInText 2.5s ease-in-out forwards;
+  opacity: 0;
+}
+
+@keyframes topIn {
+  from {
+    transform: translateY(-500px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+.sh-4,
+.shl-4 {
+  animation: topIn 2.5s ease-in-out forwards;
+}
+.sh-3,
+.shl-3 {
+  animation: topIn 2.6s ease-in-out forwards;
+}
+.sh-2,
+.shl-2 {
+  animation: topIn 2.7s ease-in-out forwards;
+}
+.sh-1,
+.shl-1 {
+  animation: topIn 2.8s ease-in-out forwards;
+}
+header {
+  animation: topIn 2.5s ease-in-out forwards;
+}
+
+@keyframes bottom-in-text {
+  from {
+    transform: translateY(200px);
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes zoom-in-img {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes contact-img {
+  from {
+    transform: scale(0.8) translateY(100px);
+  }
+  to {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes footer-img {
+  from {
+    transform: scale(0.8) ;
+  }
+  to {
+    transform: scale(1) ;
+    opacity: 1;
+  }
+}
